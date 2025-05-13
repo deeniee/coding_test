@@ -11,3 +11,9 @@ function solution(n) {
     
     return sum;
 }
+
+// 다른 사람 풀이
+// function solution(n) {
+//     var half = Math.floor(n/2);
+//     return half*(half+1);
+// } >> n/2를 정수로 바꿔준 half를 활용
