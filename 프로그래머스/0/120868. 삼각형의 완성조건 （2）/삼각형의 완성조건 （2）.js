@@ -6,3 +6,9 @@ function solution(sides) {
     
     return max - min + 1;
 }
+
+// 다른 사람 풀이
+// function solution(sides) {
+//     return Math.min(...sides)*2-1
+// }
+
