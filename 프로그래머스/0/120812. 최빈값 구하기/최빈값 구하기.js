@@ -1,3 +1,5 @@
+// Q. 정수 배열 array의 최빈값이 하나라면 최빈값을 반환, 그렇지 않다면 -1을 반환하려면?
+
 function solution(array) {
     const check = array.reduce((accumulator, currentValue) => {
         accumulator[currentValue] = (accumulator[currentValue] || 0) + 1;
