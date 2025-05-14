@@ -8,3 +8,11 @@ function solution(my_string) {
     
     return filtered.join('');
 }
+
+// 다른 사람 풀이
+// 1)
+// function solution(my_string) {
+//     return my_string.replace(/[aeiou]/g, '');
+// }
+
+// 2)
