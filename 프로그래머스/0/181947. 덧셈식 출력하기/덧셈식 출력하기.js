@@ -10,4 +10,6 @@ rl.on('line', function (line) {
     input = line.split(' ');
 }).on('close', function () {
     console.log(`${Number(input[0])} + ${Number(input[1])} = ${Number(input[0]) + Number(input[1])}`);
+    // const [a, b] = line.split(' ')
+    // console.log(a, '+', b, '=', Number(a) + Number(b))
 });
