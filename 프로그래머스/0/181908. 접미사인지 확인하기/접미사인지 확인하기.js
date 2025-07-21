@@ -6,3 +6,5 @@ function solution(my_string, is_suffix) {
     
     return suffixs.includes(is_suffix) ? 1 : 0;
 }
+
+// const solution = (str, suff) => str.endsWith(suff) ? 1 : 0
