@@ -4,3 +4,5 @@ function solution(arr, idx) {
     }
     return -1;
 }
+
+// const solution=(a,i)=>a.indexOf(1,i);
