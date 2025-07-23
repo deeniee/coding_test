@@ -6,3 +6,5 @@ function solution(date1, date2) {
     if (m1 !== m2) return m1 < m2 ? 1 : 0;
     return d1 < d2 ? 1 : 0;
 }
+
+// const solution = (date1, date2) => new Date(date1) < new Date(date2) ? 1 : 0
