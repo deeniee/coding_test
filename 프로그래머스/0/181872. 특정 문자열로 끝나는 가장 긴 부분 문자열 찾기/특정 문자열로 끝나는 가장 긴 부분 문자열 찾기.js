@@ -7,3 +7,7 @@ function solution(myString, pat) {
     
     return filtered[filtered.length-1];
 }
+
+// function solution(myString, pat) {
+//   return myString.substring(0, myString.lastIndexOf(pat) + pat.length);
+// }
