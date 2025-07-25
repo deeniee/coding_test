@@ -14,3 +14,11 @@ function solution(arr) {
     }
     return squareArr;
 }
+
+// 간결한 버전
+// function solution(arr) {
+//     const maxLen = Math.max(arr.length, ...arr.map(row => row.length));
+//     return Array.from({ length: maxLen }, (_, i) =>
+//         (arr[i] || []).concat(Array(maxLen - (arr[i]?.length || 0)).fill(0))
+//     );
+// }
