@@ -5,3 +5,8 @@ function solution(arr, divisor) {
     }
     return nums.length > 0 ? nums.sort((a,b)=>a-b) : [-1];
 }
+
+// function solution(arr, divisor) {
+//     var answer = arr.filter(v => v%divisor == 0);
+//     return answer.length == 0 ? [-1] : answer.sort((a,b) => a-b);
+// }
